@@ -1,16 +1,15 @@
 #include<stdio.h>
-int main()
+int  main()
 {
-  int A,B;
-  float C,D,result;
-  scanf("%d",&A);
-  printf("NUMBER = %d",A);
-  scanf("%d %f",&B,&D);
-  result=(B*C);
-  printf("SALARY = U$ %f\n",result);
-
-
+  int a,b;
+  float c,d,res;
+  scanf("%d",&a);
+  printf("NUMBER = %d",a);
+  scanf("%d %f",&b,&d);
+  
+   res=b*d;
+   printf("SALARY = U$ %.2f\n",res);
+   
 
     return 0;
-
 }
