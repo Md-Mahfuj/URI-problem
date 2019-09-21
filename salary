@@ -4,7 +4,7 @@ int  main()
   int a,b;
   float c,d;
   scanf("%d%d%f",&a,&b,&d);
-  printf("NUMBER = %d",a);
+  printf("NUMBER = %d\n",a);
  
   
   // res=b*d;
