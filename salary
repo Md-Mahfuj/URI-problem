@@ -2,13 +2,13 @@
 int  main()
 {
   int a,b;
-  float c,d,res;
-  scanf("%d",&a);
+  float c,d;
+  scanf("%d%d%f",&a,&b,&d);
   printf("NUMBER = %d",a);
-  scanf("%d %f",&b,&d);
+ 
   
-   res=b*d;
-   printf("SALARY = U$ %.2f\n",res);
+  // res=b*d;
+   printf("SALARY = U$ %.2f\n",b*d);
    
 
     return 0;
