@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+int main()
+{
+    char ch[30];
+    double a,b,c;
+    scanf("%s",&ch);
+   scanf("%lf %lf",&a,&b);
+   c=(0.15*b)+a;
+   printf("TOTAL = R$ %.2lf\n",c);
+
+
+
+
+    return 0;
+
+}
