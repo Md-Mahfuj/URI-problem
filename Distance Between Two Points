@@ -6,7 +6,7 @@ int main()
 {
     double a,b,c,d,dis;
     scanf("%lf %lf",&a,&c);
-    scanf("%.1lf %.1lf",&b, &d);
+    scanf("%lf %lf",&b, &d);
 
     dis=sqrt((b-a)*(b-a)+(d-c)*(d-c));
     printf("%.4lf",dis);
