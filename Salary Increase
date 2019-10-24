@@ -1,0 +1,52 @@
+#include<stdio.h>
+int main()
+
+{
+
+float a,j,k;
+int d;
+char c='%';
+
+scanf("%f",&a);
+
+   if(a>=0.00&& a<=400.00)
+{
+   j=(a*15)/100;
+   k=a+j;
+   d=15;
+}
+else if(a>400.00 && a<=800.00)
+
+{
+    j=(a*12)/100;
+    k=a+j;
+    d=12;
+}
+else if(a>800.00 && a<=1200.00)
+{
+    j=(a*10)/100;
+    k=a+j;
+    d=10;
+}
+
+else if(a>1200.00 && a<=2000.00)
+{
+    j=(a*7)/100;
+    k=a+j;
+    d=7;
+}
+else if(a>2000.00)
+ {
+    j=(a*4)/100;
+    k=a+j;
+    d=4;
+ }
+
+  printf("Novo salario: %.2f\n",k);
+  printf("Reajuste ganho: %.2f\n",j);
+  printf("Em percentual: %d %c\n",d,c);
+
+
+
+    return 0;
+}
